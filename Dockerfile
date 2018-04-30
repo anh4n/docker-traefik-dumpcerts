@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-ENV TRAEFIK_VERSION=master
+ENV TRAEFIK_VERSION=v1.6
 
 RUN apk add --no-cache bash jq curl openssl
 
